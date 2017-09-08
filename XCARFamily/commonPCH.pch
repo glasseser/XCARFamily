@@ -1,0 +1,68 @@
+//
+//  commonPCH.pch
+//  car_video
+//
+//  Created by custom on 16/12/9.
+//  Copyright © 2016年 self. All rights reserved.
+//
+
+#import "Tool.h"
+#import "SourceTool.h"
+#import "focusImg_Model.h"
+#import "UIImageView+WebCache.h"
+#import "BaseViewController.h"
+#import "AFNetworking.h"
+
+#import "navigationTop_TipBar.h"
+#import "navigationTopSelectBar.h"
+#import "MessageDetailWeb_ViewController.h"
+
+#import "LoadingView_TypeOne.h"
+
+
+#define JustForTest 1 //仅仅是为了测试使用
+
+
+//https://app.api.autohome.com.cn/autov5.0.5/news/newslist-pm1-c0-nt0-p1-s30-l0.json
+//http://al.autohome.com.cn   https://comm.app.autohome.com.cn  http://activity.app.autohome.com.cn  https://applogapi.autohome.com.cn
+#define networkUrl_Foundation @"https://app.api.autohome.com.cn/autov5.0.5/"
+#define networkUrl_news @"news/newslist-pm1-c0-nt0-p1-s30-l0.json"
+#define recommand_test @"推荐"
+#define KNetworkURL_AiKa @"https://mi.xcar.com.cn/interface/xcarapp/getdingyue.php"
+#define KNetworkURL_Video @"http://mi.xcar.com.cn/interface/xcarapp/getSelectedPostList.php"
+
+/*http://app.api.autohome.com.cn/autov5.0.5/news/newslist-pm1-c0-nt0-p1-s30-l0.json
+ * 总的栏目数量，后面做修改时记得改变这个值
+ */
+#define totalOfChoices 14
+//cell水平方向上的数量
+#define theNumberOfMoveCellInHorizon 4
+//首页 （推荐界面控制器缓存数量）
+#define viewControllerCaches 4
+
+#define tool [Tool shareTool]
+#define resources_tool [SourceTool shareTool]
+#define colorsWithSameRGB(same) [[UIColor alloc] initWithRed:same/255.0 green:same/255.0 blue:same/255.0 alpha:1.0]
+#define colorsWithRGB(r,g,b) [[UIColor alloc] initWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define colorsWithRGBAlpha(r,g,b,p) [[UIColor alloc] initWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:p]
+#define randomColor [[UIColor alloc] initWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0]
+
+#define randomColor [[UIColor alloc] initWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0]
+
+
+//moveCell的动画类型
+
+typedef enum : NSUInteger {
+    moveCellAnimationTypePanBetweenEachOther = 10,//moveCell动画，在彼此之间相互滑动
+    moveCellAnimationTypeJumpToOtherSection = 11,//moveCell动画，调到另外一组
+} moveCellAnimationType;
+
+
+
+
+
+
+
+
+
+

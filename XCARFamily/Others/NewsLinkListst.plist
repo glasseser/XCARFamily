@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1970937&amp;put_time=201704</string>
+	<string>http://a.xcar.com.cn/interface/6.0/bbs_detail.php?tid=29532131</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1970992&amp;put_time=201704</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1971019&amp;put_time=201704</string>
+	<string>http://a.xcar.com.cn/interface/6.0/bbs_detail.php?tid=29275912</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1983164&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1983169&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1983041&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1982967&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1982923&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1983193&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1983722&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1983278&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1983715&amp;put_time=201708</string>
+	<string>http://a.xcar.com.cn/interface/6.0/getNewsDetails.php?newsid=1977215&amp;put_time=201706</string>
+</array>
+</plist>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>推荐</key>
+	<string>Recommand</string>
+	<key>新闻</key>
+	<string>News</string>
+	<key>原创视频</key>
+	<string>OriginalVideo</string>
+	<key>快报</key>
+	<string>ShortNews</string>
+	<key>文化</key>
+	<string>Culture</string>
+	<key>用车</key>
+	<string>UseCar</string>
+	<key>行情</key>
+	<string>Market</string>
+	<key>技术</key>
+	<string>Techonology</string>
+	<key>视频</key>
+	<string>Video</string>
+	<key>游记</key>
+	<string>Tourist</string>
+	<key>导购</key>
+	<string>Purchase</string>
+	<key>说客</key>
+	<string>Lobbyist</string>
+	<key>改装</key>
+	<string>Stock</string>
+	<key>评测</key>
+	<string>Evaluate</string>
+</dict>
+</plist>
