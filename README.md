@@ -8,4 +8,4 @@ collectionView来完成的，感觉衔接度没有原来的好了。不过这个
   下面是项目的部分UI展示，只为完成了一部分，其余模块本人会挤出时间完成：
   ![](http://ovvvfdry8.bkt.clouddn.com/%E8%92%99%E6%9F%A5%E6%9F%A503.gif)
   
-  感谢这位大神提供的‘爱卡汽车’的接口链接：https://github.com/samtse18/XCAR , 如这个大神所言，仅供学习。
+  感谢这位大神提供的‘爱卡汽车’的接口链接：https://github.com/samtse18/XCAR , 如这位大神所言，仅供学习。
